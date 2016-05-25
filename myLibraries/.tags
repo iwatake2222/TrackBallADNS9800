@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INPUT_CHECK_INTERVAL_MS	myInput.c	31;"	d	file:
+INPUT_CHECK_INTERVAL_MS_EXP	myInput.c	30;"	d	file:
+MYINPUT_H_	myInput.h	10;"	d
+MYRETARGET_H_	myRetarget.h	10;"	d
+MYSTDIO_H_	myStdio.h	10;"	d
+MYTIMER_H_	myTimer.h	10;"	d
+MYVIDEO_H_	myVideo.h	10;"	d
+POSITION_MAX_VAL_EXP	myInput.c	28;"	d	file:
+TIMER_INTERVAL_CALLBACK_HW_MAX	myTimer.c	19;"	d	file:
+TIMER_INTERVAL_CALLBACK_MAX	myTimer.c	18;"	d	file:
+USE_LCD_ST7735R_TEXT	myRetarget.h	15;"	d
+USE_OLED_SSD1306_VIDEO	myRetarget.h	23;"	d
+USE_TIMER0_SYSTEM	myRetarget.h	19;"	d
+USE_UART0	myRetarget.h	14;"	d
+checkDial	myInput.c	/^static int8_t checkDial(uint16_t interval)$/;"	f	file:
+checkKeys	myInput.c	/^static uint8_t checkKeys()$/;"	f	file:
+checkPosition	myInput.c	/^static uint8_t checkPosition()$/;"	f	file:
+checkTap	myInput.c	/^static uint8_t checkTap()$/;"	f	file:
+clearInputDialCallback	myInput.c	/^RET clearInputDialCallback(void (*func)(int8_t))$/;"	f
+clearInputKeysCallback	myInput.c	/^RET clearInputKeysCallback(void (*func)(uint8_t))$/;"	f
+clearInputPositionCallback	myInput.c	/^RET clearInputPositionCallback(void (*func)(uint8_t))$/;"	f
+clearInputTapCallback	myInput.c	/^RET clearInputTapCallback(void (*func)(uint8_t))$/;"	f
+clearIntervalTimer	myTimer.c	/^RET clearIntervalTimer(void (*func)())$/;"	f
+clearIntervalTimerHW	myTimer.c	/^RET clearIntervalTimerHW(void (*func)())$/;"	f
+drawBuffer	myVideo.c	/^void drawBuffer(uint8_t *buffer, uint16_t size)$/;"	f
+drawPixel	myVideo.c	/^inline void drawPixel(uint8_t dataHigh, uint8_t dataLow)$/;"	f
+getInputAccelX	myInput.c	/^inline int8_t getInputAccelX()$/;"	f
+getInputAccelY	myInput.c	/^inline int8_t getInputAccelY()$/;"	f
+getInputAccelZ	myInput.c	/^inline int8_t getInputAccelZ()$/;"	f
+getIntervalTime	myTimer.c	/^uint16_t getIntervalTime()$/;"	f
+getTimeMS	myTimer.c	/^uint16_t getTimeMS()$/;"	f
+getchar	myStdio.c	/^char getchar()$/;"	f
+getcharTry	myStdio.c	/^char getcharTry(char *c)$/;"	f
+inputInit	myInput.c	/^void inputInit()$/;"	f
+print	myStdio.c	/^void print(const char *str)$/;"	f
+printDec	myStdio.c	/^void printDec(int8_t dec)$/;"	f
+printDecPos	myStdio.c	/^void printDecPos(const uint8_t dec, const uint8_t x, const uint8_t y)$/;"	f
+printHex	myStdio.c	/^void printHex(const uint8_t hex)$/;"	f
+printPos	myStdio.c	/^void printPos(const char *str, const uint8_t x, const uint8_t y)$/;"	f
+putchar	myStdio.c	/^char putchar(char c)$/;"	f
+resumeDraw	myVideo.c	/^inline void resumeDraw()$/;"	f
+s_dialCallback	myInput.c	/^static void (*s_dialCallback)(int8_t);$/;"	v	file:
+s_frameStartTimeMS	myVideo.c	/^static uint16_t s_frameStartTimeMS;$/;"	v	file:
+s_height	myVideo.c	/^static uint8_t s_height;$/;"	v	file:
+s_intervalCallback	myTimer.c	/^static void (*s_intervalCallback[TIMER_INTERVAL_CALLBACK_MAX])();$/;"	v	file:
+s_intervalCallbackHW	myTimer.c	/^static void (*s_intervalCallbackHW[TIMER_INTERVAL_CALLBACK_HW_MAX])();$/;"	v	file:
+s_intervalTime	myTimer.c	/^static volatile  uint8_t s_intervalTime[TIMER_INTERVAL_CALLBACK_MAX];$/;"	v	file:
+s_intervalTimeCount	myTimer.c	/^static uint8_t s_intervalTimeCount[TIMER_INTERVAL_CALLBACK_MAX];$/;"	v	file:
+s_intervalTimeCountHW	myTimer.c	/^static uint8_t s_intervalTimeCountHW[TIMER_INTERVAL_CALLBACK_HW_MAX];$/;"	v	file:
+s_intervalTimeHW	myTimer.c	/^static volatile  uint8_t s_intervalTimeHW[TIMER_INTERVAL_CALLBACK_HW_MAX];$/;"	v	file:
+s_keysCallback	myInput.c	/^static void (*s_keysCallback)(uint8_t);$/;"	v	file:
+s_positionCallback	myInput.c	/^static void (*s_positionCallback)(uint8_t);$/;"	v	file:
+s_tapCallback	myInput.c	/^static void (*s_tapCallback)(uint8_t);$/;"	v	file:
+s_width	myVideo.c	/^static uint8_t s_width;$/;"	v	file:
+setInputDialCallback	myInput.c	/^RET setInputDialCallback(void (*func)(int8_t))$/;"	f
+setInputKeysCallback	myInput.c	/^RET setInputKeysCallback(void (*func)(uint8_t))$/;"	f
+setInputPositionCallback	myInput.c	/^RET setInputPositionCallback(void (*func)(uint8_t))$/;"	f
+setInputTapCallback	myInput.c	/^RET setInputTapCallback(void (*func)(uint8_t))$/;"	f
+setIntervalTimer	myTimer.c	/^RET setIntervalTimer(void (*func)(), uint8_t intervalMS)$/;"	f
+setIntervalTimerHW	myTimer.c	/^RET setIntervalTimerHW(void (*func)(), uint8_t intervalMS)$/;"	f
+setVideoArea	myVideo.c	/^void setVideoArea(uint8_t x0, uint8_t y0, uint8_t width, uint8_t height)$/;"	f
+startFrame	myVideo.c	/^void startFrame()$/;"	f
+stdioInit	myStdio.c	/^void stdioInit()$/;"	f
+stopFrame	myVideo.c	/^uint16_t stopFrame()$/;"	f
+suspendDraw	myVideo.c	/^inline void suspendDraw()$/;"	f
+timerCallbackHW	myTimer.c	/^static void timerCallbackHW()$/;"	f	file:
+timerInit	myTimer.c	/^void timerInit()$/;"	f
+timerLoop	myTimer.c	/^void timerLoop()$/;"	f
+updateInputAll	myInput.c	/^static void updateInputAll()$/;"	f	file:
+videoInit	myVideo.c	/^void videoInit()$/;"	f
